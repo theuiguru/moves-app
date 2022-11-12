@@ -1,3 +1,7 @@
-body {background:#222; font-family:sans-serif;}
+html, body {margin:0; padding:0; background:#222; font-family:sans-serif;}
 .moves {background:#00d55a; border-radius:100%; height:100px; width:100px; margin:5em auto; padding:20px; color:#fff; line-height:1px; text-align:center;}
+.moves:hover {animation:bounce 0.5s;}
 h2 {font-weight:500; font-size:50px; text-shadow:1px 1px 0 #ccc;}
+@keyframes bounce {
+    to {margin:0;}
+}
